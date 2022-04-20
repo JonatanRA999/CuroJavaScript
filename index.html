@@ -1,17 +1,16 @@
 <script>
-    //Longitud de Strings
+    // accediendo a los indices o caracteres de una cadena
 
-    var miCadena ;
+    var miCadena = "Jonatan estas trabajando duro";
 
-    miCadena = "A";
 
-    // esto es para saber el numero de caracteres de mi cadena
+    console.log(miCadena[0]);
 
-    console.log(miCadena.length);
+    // Inmutabilidad de las cadenas de las cadenas de caracteres
+    // mutables es que se puede cambiar
+    // Inmutables es que no pueden ser cambiadas
 
-    // ejemplo 2
-    var cadena2;
-    cadena2 = "JavaScript estoy aprendiendo a programar";
-    console.log(cadena2.length);
-
+    var miCadena2 = "este mensaje no puede ser alterado";
+    miCadena2[0]="Y";// esto no se puede realizar en los Strings
+    console.log(miCadena2);
 </script>

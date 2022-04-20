@@ -1,81 +1,8 @@
 <script>
-    // Cadenas de caracteres (STRINGS)
-    // en JS se pueden escribir dentro de comillas dobles 
-    // dentro de comillas simples
+    // Concatenacion de cadenas (String en JS)
+    // el operador '+' se utiliza para concatenar tambien
 
-    var nombre = "Jonatan";
+    var nombreCompleto = "Jonatan" + " " +" Romero"+ " Arrieta";
 
-    var apellido = "Romero";
-
-    var carrera = 'Universidad de Antioquia';
-    var semestre = 'sexto semestre de ingeniera de sistemas';
-
-    //Jerarquia entre commillas dobles y simples
-
-    // esto seria un errror var miCadena = "Soy una cadena "con comillas ""
-
-    // caracter de escape 
-
-    var miCadena = "Soy una cadena de caracteres \"esto es una cade\" ";
-    console.log("Mensaje "+ miCadena);
-
-
-    //
-
-    var miMeta;
-
-    miMeta = "Aprender a programar con \"freecodeCamp\" ";
-
-    // ahora , hay otro metodo que es el siguiente
-
-    miMeta = 'Aprender a programar con "free code Camp " ';
-
-    console.log("Definicion de cadenas "+ miMeta);
-
-    // Secuencias de Escape
-    // son una secuencia de caracteres 
-    // que no hacen parte del mensaje
-    /*
-
-    1. \' comilla simple 
-    2. \" comilla Doble (ya hicimos un ejemplo)
-    3. \\ Barra Invertida 
-    4. \n Linea Nueva(saltar )
-    5. \r Retorno de Carro(no saltar ala siguiente linea)
-    6.\t tabulacion (correr el espacio en la misma linea)
-    7. \b Retroceso 
-    8. \f Salto de Pagina
-    */
-   // ejemplo para 1. y 2.
-    console.log("hola \"esto es un mensaje entre comillas dobles\"")
-
-    console.log('HOLA \'est es un mensaje entre comillas simples\'')
-
-    // ejemplo 3. es para incluir una barra invertida
-    // si ponemos una sola no apareceria 
-    // y es porque este caracter tiene una funcion especial
-    // que es en la secuencia de escappe
-
-    console.log('este un mensaje \\ saltar')
-
-    // 4. este es para saltar a la siguiente linea
-
-    console.log("esta linea \n salto ahora mismo")
-
-    // 5. 
-    console.log("esto no va a saltar ")
-    console.log("  el perro \resta muy gordo ")
-
-    // 6.
-    console.log("\t\t\testo sirve para tabulacion ")
-
-    // 7.
-    console.log("\b estoy retrocediendo")
-
-    // 8. salto de pagina
-
-    console.log("vamos a \fsaltar a otra pagina")
-
-
-
+    console.log(nombreCompleto);
 </script>
